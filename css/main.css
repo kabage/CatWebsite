@@ -3,3 +3,32 @@ body{
   background-color: #EAEAEA;
   font-family: 'Helvetica', Light;
 }
+
+.menu-bar{
+  background-color: #000000;
+  height: 40px;
+  width: 100%;
+}
+
+
+.menu-bar li a{
+  color: #878787;
+  text-decoration: none;
+}
+
+#menu-items li {
+  font-family: 'Droid Sans', bold;
+  float: left;
+  font-weight: bold;
+  padding-top: 12px;
+  display: block;
+  margin-right: 12px;
+}
+
+
+#social li{
+  padding-top: 12px;
+  float: right;
+  display: block;
+  margin-right: 12px;
+}
