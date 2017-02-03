@@ -72,3 +72,13 @@ body{
   padding-top: 12px;
   text-decoration: none;
 }
+
+.recent-cats {
+  text-align: center;
+}
+
+.recent-cats hr{
+  width: 150px;
+  background-color: #000000;
+  height: 2px;
+}
