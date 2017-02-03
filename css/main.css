@@ -212,3 +212,13 @@ body{
   height: 300;
   border: 10px solid #fff;
 }
+
+.lets-talk{
+  background-color: #3A3A3A;
+  text-align: center;
+}
+
+lets-talk h2{
+  color: #fff;
+  font-size: 45px;
+}
