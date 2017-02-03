@@ -86,7 +86,7 @@ body{
   width: 25%;
   background-size: cover;
   float: left;
-  padding-left: 16px;
+
   padding-right: 16px;
   padding-bottom: 16px;
 }
@@ -118,7 +118,7 @@ body{
   background-size: cover;
   clear:left;
   float: left;
-  padding-left: 16px;
+
   padding-right: 16px;
   padding-bottom: 19px;
 }
@@ -144,15 +144,14 @@ body{
     margin: 0px;
 
 }
-
-
 .cat-three{
   width: 25%;
   background-size: cover;
   clear:left;
   float: left;
-  padding-left: 16px;
+
   padding-right: 16px;
+  padding-bottom: 16px;
 }
 
 .cat-three-description{
@@ -176,4 +175,16 @@ body{
     width: 200px;
     margin: 0px;
 
+}
+
+.footer{
+  clear: both; /*Clear the floating attribute so that the footer is actually below the table*/
+  text-align: center;
+  background-color: #2D2D2D;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 12px;
+  padding-top: 2px;
+  height: 35px;
 }
