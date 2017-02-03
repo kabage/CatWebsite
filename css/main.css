@@ -188,3 +188,12 @@ body{
   padding-top: 2px;
   height: 35px;
 }
+
+.main-view{
+  background-image: url("../images/contact-cat.jpeg");
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 550px;
+  margin-bottom: 20px;
+}
