@@ -1,0 +1,271 @@
+body{
+  margin: 0;
+  background-color: #EAEAEA;
+  font-family: 'Helvetica', Light;
+}
+
+.menu-bar{
+  background-color: #000000;
+  height: 40px;
+  width: 100%;
+}
+
+
+.menu-bar li a{
+  color: #878787;
+  text-decoration: none;
+}
+
+#menu-items li {
+  font-family: 'Droid Sans', bold;
+  float: left;
+  font-weight: bold;
+  padding-top: 12px;
+  display: block;
+  margin-right: 12px;
+}
+
+
+#social li{
+  padding-top: 12px;
+  float: right;
+  display: block;
+  margin-right: 12px;
+}
+
+.slider{
+  background-image: url("../images/top-kitten.jpeg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+
+.slider-text{
+  width: 25%;
+  font-size: 22px;
+  height: inherit;
+  opacity: 0.7;
+  float: left;
+  background-color: #3A3A3A;
+  text-align: center;
+  color: #FFFFFF;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.slider-text p{
+  text-align: justify;
+}
+
+.slider-text hr{
+  width: 150px;
+}
+
+.more-button{
+  background-color: #E00000;
+  color:  #FFFFFF;
+  height: 60px;
+  width: 60px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  text-decoration: none;
+}
+
+.recent-cats {
+  text-align: center;
+}
+
+.recent-cats hr{
+  width: 150px;
+  background-color: #000000;
+  height: 2px;
+}
+.cat-one{
+  width: 25%;
+  background-size: cover;
+  float: left;
+
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
+
+.cat-one-description{
+  height: 280px;
+  background-color: #3A3A3A;
+  text-align: left;
+  color: #FFFFFF;
+
+  font-size: 22px;
+  width: 41%;
+  background-size: cover;
+
+  float: right;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 19px
+}
+
+.cat-one-description hr{
+    width: 200px;
+    margin: 0px;
+
+}
+
+.cat-two{
+  width: 25%;
+  background-size: cover;
+  clear:left;
+  float: left;
+
+  padding-right: 16px;
+  padding-bottom: 19px;
+}
+
+.cat-two-description{
+  height: 280px;
+  background-color: #3A3A3A;
+  text-align: left;
+  color: #FFFFFF;
+
+  font-size: 22px;
+  width: 41%;
+  background-size: cover;
+
+  float: right;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 19px
+}
+
+.cat-two-description hr{
+    width: 200px;
+    margin: 0px;
+
+}
+.cat-three{
+  width: 25%;
+  background-size: cover;
+  clear:left;
+  float: left;
+
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
+
+.cat-three-description{
+  height: 280px;
+  background-color: #3A3A3A;
+  text-align: left;
+  color: #FFFFFF;
+
+  font-size: 22px;
+  width: 41%;
+  background-size: cover;
+
+  float: right;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 19px;
+
+}
+
+.cat-three-description hr{
+    width: 200px;
+    margin: 0px;
+
+}
+
+.footer{
+  clear: both; /*Clear the floating attribute so that the footer is actually below the table*/
+  text-align: center;
+  background-color: #2D2D2D;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 12px;
+  padding-top: 2px;
+  height: 35px;
+}
+
+.main-view{
+  background-image: url("../images/contact-cat.jpeg");
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 550px;
+  margin-bottom: 20px;
+}
+
+.contact-overlay{
+  width: 80%;
+  z-index: 10;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+  align-content: center;
+  margin-top: 125px;
+  height: 300;
+  border: 10px solid #fff;
+}
+
+.lets-talk{
+  background-color: #3A3A3A;
+  text-align: center;
+}
+
+.lets-talk h2{
+  color: #fff;
+  font-size: 45px;
+}
+
+.lets-talk hr{
+  width: 42%;
+}
+
+
+.form-div{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  line-height: 2;
+  background-color: #3A3A3A;
+}
+
+.form-div-text{
+  float: left;
+  color: #fff;
+  height: 40px;
+  text-align: left;
+  background-color: #3A3A3A;
+  vertical-align: middle;
+  font-size: 20px;
+  width: 35%;
+}
+
+.form-div-input{
+  width: 65%;
+  float: right;
+}
+
+.form-div-input input{
+  width: 100%;
+  height: 40px;
+}
+
+.text-middle{
+  text-align: center;
+}
+
+.message{
+  height: 70px;
+}
+
+.contact-us-footer{
+  margin: 0;
+}
